@@ -1,0 +1,108 @@
+
+Skip to content
+This repository
+
+    Explore
+    Gist
+    Blog
+    Help
+
+    @BettyFava BettyFava
+
+1
+0
+
+    2
+
+BettyFava/PROJET-NOSQL
+
+PROJET-NOSQL/.gitignore
+@ludovicmantovani ludovicmantovani 6 days ago Add recommenders to gitignore
+
+2 contributors
+@ludovicmantovani
+@BettyFava
+84 lines (77 sloc) 1.148 kb
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Directories #
+/build/
+/bin/
+target/
+# OS Files #
+.DS_Store
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+######################
+# NetBeans
+######################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+######################
+# OSX
+######################
+.DS_Store
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath 
+.recommenders/
+
